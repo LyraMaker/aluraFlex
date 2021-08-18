@@ -285,3 +285,59 @@ body {
 }
 
 
+/* comecei daqui */
+
+.cabecalhoPrincipal .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav{
+	display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+	display: flex;
+	align-items: center;
+	width: 60%;
+	justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm-fieldset
+{
+	display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+	display: flex;
+	flex-flow: column wrap;
+	height: 250px;
+}
+
+.conteudoPrincipal-cursos{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+	margin-bottom: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-left: 0;
+
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+
+}
+
+
